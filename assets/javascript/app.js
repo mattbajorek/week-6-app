@@ -30,7 +30,6 @@ $(document).on('ready', function() {
       })
       .done(function(response) {
         var results = response.data;
-        console.log(results)
 
         for (var i = 0; i < results.length; i++) {
           var gifDiv = $('<div class="item">')
