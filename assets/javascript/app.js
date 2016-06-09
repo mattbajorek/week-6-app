@@ -22,7 +22,7 @@ $(document).on('ready', function() {
 		movingImg = [];
 		// Show new images
     var p = $(this).attr('data-sport');
-    var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + p + "&api_key=dc6zaTOxFJmzC&limit=10";
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + p + "&api_key=dc6zaTOxFJmzC&limit=10";
 
     $.ajax({
         url: queryURL,
